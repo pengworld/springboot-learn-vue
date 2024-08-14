@@ -4,6 +4,10 @@ import App from './App.vue'
 import uploader from 'vue-simple-uploader'
 Vue.use(uploader)
 
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
+Vue.use(ElementUI)
+
 Vue.config.productionTip = false
 
 new Vue({
