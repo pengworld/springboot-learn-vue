@@ -1,6 +1,14 @@
 <template>
   <div class="hello">
     <!-- 上传器 -->
+    <el-upload
+        class="upload-demo"
+        action="./file/upload"
+        multiple
+        :limit="3"
+    >
+      <el-button size="small" type="primary">点击长传</el-button>
+    </el-upload>
   </div>
 </template>
 
