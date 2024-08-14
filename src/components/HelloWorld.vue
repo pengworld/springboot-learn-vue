@@ -1,6 +1,13 @@
 <template>
   <div class="hello">
-    hello
+    <!-- 上传器 -->
+    <uploader ref="uploader" :options="options" class="uploader-example">
+      <unsupport></unsupport>
+      <drop>
+        <p>在此处拖放文件以上传或者</p>
+      </drop>
+      <list></list>
+    </uploader>
   </div>
 </template>
 
