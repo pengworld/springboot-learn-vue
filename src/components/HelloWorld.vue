@@ -3,11 +3,11 @@
     <!-- 上传器 -->
     <el-upload
         class="upload-demo"
-        action="./file/upload"
+        action=""
         multiple
         :limit="3"
     >
-      <el-button size="small" type="primary">点击长传</el-button>
+      <el-button size="small" type="primary">点击上传</el-button>
     </el-upload>
   </div>
 </template>
@@ -20,5 +20,4 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
 </style>
