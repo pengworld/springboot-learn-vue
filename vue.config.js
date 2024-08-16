@@ -7,9 +7,6 @@ module.exports = defineConfig({
             "/": {
                 target: 'http://localhost:8081',
                 changeOrigin: true,
-                pathRewrite: {
-                    '^/': ''
-                },
             }
         }
     },

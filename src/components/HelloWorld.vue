@@ -3,7 +3,7 @@
     <!-- 上传器 -->
     <el-upload
         class="upload-demo"
-        action=""
+        action="/file/upload"
         multiple
         :limit="3"
     >
